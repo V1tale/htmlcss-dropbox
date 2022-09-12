@@ -152,3 +152,17 @@ header {
     height: 400px;
     background-color: darkgray;
 }
+footer {
+    width: 100%;
+    background-color: black;
+}
+.footer-column {
+    width: calc(100% / 5);
+    height: 200px;
+    background-color: white;
+    margin: 50px 5px;
+}
+.languages {
+    height: 5rem;
+    background-color: white;
+}
