@@ -86,3 +86,23 @@ header {
     height: 250px;
     background-color: cyan;
 }
+.details-columns {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.details-title {
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+}
+.details-column {
+    width: 30%;
+    height: 30rem;
+    background-color: yellowgreen;
+    margin-bottom: 3rem;
+}
+.details-footer {
+    width: 100%;
+    height: 10rem;
+    background-color: brown;
+}
