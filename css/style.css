@@ -142,3 +142,13 @@ header {
 .yellow {
     background-color: yellow;
 }
+.sponsor-bottom {
+    width: 100%;
+    height: 15rem;
+    background-color: aqua;
+}
+.questions {
+    width: 100%;
+    height: 400px;
+    background-color: darkgray;
+}
