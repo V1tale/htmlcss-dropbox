@@ -17,6 +17,9 @@ header {
     background-color: yellow;
     justify-content: space-between;
 }
+.display-flex {
+    display: flex;
+}
 .list1-header, .list2-header{
     width: 30%;
     height: 100%;
@@ -38,6 +41,7 @@ header {
 }
 .display-flex {
     display: flex;
+    justify-content: space-between;
 }
 .banner-column {
     width: 40%;
@@ -48,4 +52,27 @@ header {
     width: 60%;
     height: 300px;
     background-color: gray;
+}
+.smallcontainer {
+    width: 70%;
+    margin: auto;
+}
+.maincontent-title {
+    width: 100%;
+    height: 100px;
+    background-color: pink;
+}
+.maincontent-columns {
+        height: 50em;
+         justify-content: space-between;
+}
+.column {
+    width: 30%;
+    height: 100%;
+    background-color: lime;
+}
+.maincontent-bottom {
+    width: 100%;
+    height: 150px;
+    background-color:blueviolet;
 }
