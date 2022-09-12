@@ -15,11 +15,37 @@ header {
     width:100%;
     height: 10vh;
     background-color: yellow;
-    display: flex;
     justify-content: space-between;
 }
 .list1-header, .list2-header{
     width: 30%;
     height: 100%;
     background-color: orange;
+}
+.bigcontainer {
+    width: 80%;
+    margin: auto;
+}
+.banner {
+    background-color: blue;
+    width: 100%;
+    height: 400px
+}
+.title {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+.display-flex {
+    display: flex;
+}
+.banner-column {
+    width: 40%;
+    height: 300px;
+    background-color: red;
+}
+.banner-image {
+    width: 60%;
+    height: 300px;
+    background-color: gray;
 }
