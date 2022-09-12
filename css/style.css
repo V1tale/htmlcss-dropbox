@@ -41,7 +41,6 @@ header {
 }
 .display-flex {
     display: flex;
-    justify-content: space-between;
 }
 .banner-column {
     width: 40%;
@@ -105,4 +104,41 @@ header {
     width: 100%;
     height: 10rem;
     background-color: brown;
+}
+.sponsor {
+    height: 200px;
+}
+.sponsor-left {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: blue;
+    flex-wrap: wrap;
+}
+.sponsor-right {
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: red;
+    flex-wrap: wrap;
+}
+.sponsor-center {
+
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: blueviolet;
+}
+.sponsor-block {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
 }
