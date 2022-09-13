@@ -173,7 +173,7 @@ margin-right: 10px;
     padding-bottom: 30px;
 }
 .column-bottom i {
-    color:rgb(56, 56, 255)
+    color:rgb(56, 56, 255);
 }
 .column-bottom li {
     margin-top: 2rem;
@@ -223,13 +223,33 @@ margin-right: 10px;
 }
 .intro-picture {
     width: 60%;
-    height: 250px;
-    background-color: fuchsia;
+}
+.introduction {
+    margin: 5rem 0;
+}
+.intro img {
+    width:100%;
 }
 .intro-text {
     width: 40%;
-    height: 250px;
-    background-color: cyan;
+    margin: 4rem;
+}
+.intro-text h2 {
+    font-size: 1.8rem;
+}
+.intro-text p {
+    font-size: 1.4rem;
+    margin: 2rem 0 4rem;
+}
+.intro-text a {
+    font-size: 1.4rem;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+.intro a:hover {
+    background-color: lightblue;
 }
 .details-columns {
     flex-wrap: wrap;
