@@ -248,7 +248,7 @@ margin-right: 10px;
     color: black;
     text-decoration: none;
 }
-.intro a:hover {
+.intro-text a:hover {
     background-color: lightblue;
 }
 .details-columns {
@@ -256,20 +256,34 @@ margin-right: 10px;
     justify-content: space-between;
 }
 .details-title {
-    width: 100%;
-    height: 5rem;
-    background-color: black;
+    /* width: 100%; */
+    font-size: 2rem;
+    text-align: center;
 }
 .details-column {
     width: 30%;
-    height: 30rem;
-    background-color: yellowgreen;
-    margin-bottom: 3rem;
+    margin: 2rem 0 2rem;
+}
+.details-column h3 {
+    font-size: 1.6rem;
+}
+.details-column p {
+    font-size: 1.2rem;
 }
 .details-footer {
-    width: 100%;
-    height: 10rem;
-    background-color: brown;
+    width: 70%;
+    padding: 4rem 0;
+}
+.details-footer h2 {
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+.details-footer a {
+    color: blue;
+    font-size: 1.4rem;
+}
+.details-footer a:hover {
+    color: blueviolet;
 }
 .sponsor {
     height: 200px;
