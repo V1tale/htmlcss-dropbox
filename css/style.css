@@ -291,9 +291,7 @@ margin-right: 10px;
     color: blueviolet;
 }
 /* SPONSOR */
-#sponsor {
-    height: 200px;
-}
+
 .sponsor-top {
     justify-content:space-between;
     height: 40em;
@@ -397,10 +395,53 @@ margin-right: 10px;
     background-color: lightblue;
 }
 /* QUESTIONS */
-.questions {
+#questions {
     width: 100%;
-    height: 400px;
     background-color: darkgray;
+    height: 500px;
+}
+.questions h2 {
+    font-size: 3rem;
+    padding: 6rem 0 3rem;
+}
+.qanda {
+    position:relative;
+    width: 100%;
+}
+.answer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.fa-chevron-down {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.chevtwo {
+    position:absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+}
+.chevone {
+    position:absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+}
+.question-one {
+    background-color: darkgray;
+}
+.question-one:active {
+    display: none;
+}
+.answer-one {
+    /* display: none; */
+    z-index: -10;
+}
+.answer-one:active {
+    display:block;
 }
 /* FOOTER */
 footer {
