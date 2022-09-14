@@ -132,6 +132,9 @@ margin-right: 10px;
 .column li {
     list-style-type: none;
 }
+.column-top span {
+    padding-left: 10px;
+}
 .radio-buttons label {
     margin-right: 20px;
 }
@@ -301,6 +304,7 @@ margin-right: 10px;
 .sponsor-left, .sponsor-right {
     width: calc(100% / 3);
     flex-wrap: wrap;
+    overflow: hidden;
 
 }
 .sponsor-center {
@@ -319,6 +323,7 @@ margin-right: 10px;
     width: 20em;
     min-width: 50%;
     height: 20em;
+
 }
 .advert img {
     scale: .5;
@@ -407,41 +412,42 @@ margin-right: 10px;
 .qanda {
     position:relative;
     width: 100%;
+    font-size: 1.8rem;
+    border-bottom: 1px solid gray;
+    padding: 2rem 0;
 }
-.answer {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-.fa-chevron-down {
-    position: relative;
-    top: 0;
-    right: 0;
-}
-.chevtwo {
-    position:absolute;
-    top:0;
-    right: 0;
-    cursor: pointer;
-}
-.chevone {
-    position:absolute;
-    top:0;
-    right: 0;
-    cursor: pointer;
-}
-.question-one {
+
+.chev1, .chev2 {
+    width: 10px;
+    height:10px;
     background-color: darkgray;
+    position:absolute;
+    top:0;
+    right: 0;
+    cursor: pointer;
+    z-index: 1;
 }
-.question-one:active {
-    display: none;
+.qanda span {
+    position:absolute;
+    top:0;
+    left:0;
 }
-.answer-one {
-    /* display: none; */
-    z-index: -10;
+.questionformat {
+    transition: .5s;
+    background-color: #d5001f;
 }
-.answer-one:active {
-    display:block;
+.questionformat:active {
+    filter: opacity(0%);
+    animation:4s;
+}
+.answerformat {
+    position:absolute;
+    width:100%;
+    filter:opacity(0%);
+}
+.answerformat:hover {
+    filter:opacity(100%);
+    transition: .5s;
 }
 /* FOOTER */
 footer {
@@ -450,11 +456,29 @@ footer {
 }
 .footer-column {
     width: calc(100% / 5);
-    height: 200px;
-    background-color: white;
-    margin: 50px 5px;
+    margin: 50px 10px;
+}
+footer {
+    color: white;
+}
+footer h4 {
+    font-size: 2rem;
+    padding: 2rem 0 1rem;
+}
+footer li {
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+}
+footer ul {
+    list-style: none;
 }
 .languages {
-    height: 5rem;
-    background-color: white;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 2rem 0 4rem;
+    margin:auto;
+}
+.languages *:not(hr) {
+    padding-top: 1rem;
+    margin: 0 .5rem 0 .5rem;
 }
