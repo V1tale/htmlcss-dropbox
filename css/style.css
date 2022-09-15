@@ -402,53 +402,29 @@ margin-right: 10px;
 /* QUESTIONS */
 #questions {
     width: 100%;
-    background-color: darkgray;
-    height: 500px;
+    padding: 0 4rem 5rem ;
 }
 .questions h2 {
     font-size: 3rem;
     padding: 6rem 0 3rem;
+    border-bottom: 1px solid gray;
 }
 .qanda {
     position:relative;
     width: 100%;
     font-size: 1.8rem;
     border-bottom: 1px solid gray;
-    padding: 2rem 0;
+    line-height: 8rem;
+
 }
 
 .chev1, .chev2 {
-    width: 10px;
-    height:10px;
-    background-color: darkgray;
     position:absolute;
     top:0;
     right: 0;
     cursor: pointer;
-    z-index: 1;
 }
-.qanda span {
-    position:absolute;
-    top:0;
-    left:0;
-}
-.questionformat {
-    transition: .5s;
-    background-color: #d5001f;
-}
-.questionformat:active {
-    filter: opacity(0%);
-    animation:4s;
-}
-.answerformat {
-    position:absolute;
-    width:100%;
-    filter:opacity(0%);
-}
-.answerformat:hover {
-    filter:opacity(100%);
-    transition: .5s;
-}
+
 /* FOOTER */
 footer {
     width: 100%;
@@ -465,12 +441,19 @@ footer h4 {
     font-size: 2rem;
     padding: 2rem 0 1rem;
 }
-footer li {
+/* footer li {
     line-height: 2.5rem;
     font-size: 1.6rem;
-}
+} */
 footer ul {
     list-style: none;
+}
+
+.footer-column a {
+    text-decoration: none;
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+    color: inherit;
 }
 .languages {
     font-size: 1.4rem;
@@ -481,4 +464,7 @@ footer ul {
 .languages *:not(hr) {
     padding-top: 1rem;
     margin: 0 .5rem 0 .5rem;
+}
+.languages i {
+    cursor: pointer;
 }
